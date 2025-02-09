@@ -1,0 +1,73 @@
+
+/* Estilo del contenedor de avisos */
+.avisos-contenedor {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  border-left: 5px solid #006d5b; /* Color institucional */
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Título principal de la sección */
+.avisos-contenedor h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #006d5b; /* Color verde institucional */
+  font-size: 2rem;
+  font-weight: bold;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+/* Avisos individuales*/
+.aviso {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  transition: box-shadow 0.3s ease;
+}
+
+/* Efecto hover para destacar los avisos */
+.aviso:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Título de cada aviso */
+.aviso h2 {
+  margin-top: 0;
+  color: #333;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+/* Fecha del aviso */
+.fecha {
+  color: #888;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+/* Contenido del aviso */
+.aviso p {
+  line-height: 1.8;
+  color: #444;
+}
+
+/* Pie de página con nombre de la colonia */
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 0.85rem;
+  color: #555;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+  
